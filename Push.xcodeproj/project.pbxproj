@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C79ED671D306D2D00F57233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C79ED661D306D2D00F57233 /* main.m */; };
 		8C79ED6A1D306D2D00F57233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C79ED691D306D2D00F57233 /* AppDelegate.m */; };
-		8C79ED6D1D306D2D00F57233 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C79ED6C1D306D2D00F57233 /* ViewController.m */; };
+		8C79ED6D1D306D2D00F57233 /* Inicio.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C79ED6C1D306D2D00F57233 /* Inicio.m */; };
 		8C79ED701D306D2D00F57233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C79ED6E1D306D2D00F57233 /* Main.storyboard */; };
 		8C79ED731D306D2D00F57233 /* Push.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C79ED711D306D2D00F57233 /* Push.xcdatamodeld */; };
 		8C79ED751D306D2D00F57233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C79ED741D306D2D00F57233 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		8C79ED661D306D2D00F57233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C79ED681D306D2D00F57233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C79ED691D306D2D00F57233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C79ED6B1D306D2D00F57233 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C79ED6C1D306D2D00F57233 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C79ED6B1D306D2D00F57233 /* Inicio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Inicio.h; sourceTree = "<group>"; };
+		8C79ED6C1D306D2D00F57233 /* Inicio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Inicio.m; sourceTree = "<group>"; };
 		8C79ED6F1D306D2D00F57233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C79ED721D306D2D00F57233 /* Push.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Push.xcdatamodel; sourceTree = "<group>"; };
 		8C79ED741D306D2D00F57233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		8C79ED641D306D2C00F57233 /* Push */ = {
 			isa = PBXGroup;
 			children = (
-				8C79ED681D306D2D00F57233 /* AppDelegate.h */,
-				8C79ED691D306D2D00F57233 /* AppDelegate.m */,
-				8C79ED6B1D306D2D00F57233 /* ViewController.h */,
-				8C79ED6C1D306D2D00F57233 /* ViewController.m */,
+				8C79ED801D306D5700F57233 /* Main */,
+				8C79ED7F1D306D4400F57233 /* Controllers */,
 				8C79ED6E1D306D2D00F57233 /* Main.storyboard */,
 				8C79ED741D306D2D00F57233 /* Assets.xcassets */,
 				8C79ED761D306D2D00F57233 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				8C79ED661D306D2D00F57233 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C79ED7F1D306D4400F57233 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C79ED6B1D306D2D00F57233 /* Inicio.h */,
+				8C79ED6C1D306D2D00F57233 /* Inicio.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8C79ED801D306D5700F57233 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8C79ED681D306D2D00F57233 /* AppDelegate.h */,
+				8C79ED691D306D2D00F57233 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C79ED6D1D306D2D00F57233 /* ViewController.m in Sources */,
+				8C79ED6D1D306D2D00F57233 /* Inicio.m in Sources */,
 				8C79ED731D306D2D00F57233 /* Push.xcdatamodeld in Sources */,
 				8C79ED6A1D306D2D00F57233 /* AppDelegate.m in Sources */,
 				8C79ED671D306D2D00F57233 /* main.m in Sources */,

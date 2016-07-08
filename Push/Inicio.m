@@ -6,13 +6,13 @@
 //  Copyright © 2016 RGO. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Inicio.h"
 
-@interface ViewController ()
+@interface Inicio ()
 
 @end
 
-@implementation ViewController
+@implementation Inicio
 
 - (void)viewDidLoad {
     [super viewDidLoad];
